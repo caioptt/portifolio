@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="d-flex align-center justify-center ga-2 flex-wrap flex-grow-1 py-3" color="surface-light">
+  <v-footer class="d-flex align-center justify-center ga-2 flex-wrap flex-grow-1 py-3" color="black">
     <v-btn
       variant="text"
       rounded

@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <v-container class="pt-0">
     <v-carousel
-      height="600"
+      height="1000"
       cycle
       show-arrows="hover"
       hide-delimiter-background

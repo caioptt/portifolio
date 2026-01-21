@@ -1,10 +1,10 @@
 <template>
-  <v-app-bar position="fixed" color="white" elevation="1">
-    <v-toolbar-title class="font-weight-bold">
-      <v-img
+  <v-app-bar position="fixed" color="black" elevation="1">
+    <v-toolbar-title class="pt-1">
+      <v-img 
         width="210px"
         height="210px"
-        src="@/assets/logo-img.png"
+        src="@/assets/logo-img-w.png"
         alt="Logo"
         contain
       ></v-img>
@@ -15,7 +15,7 @@
     <v-text-field
       v-model="search"
       prepend-inner-icon="mdi-magnify"
-      label="Buscar produtos"
+      variant="underlined"
       density="compact"
       hide-details
     />

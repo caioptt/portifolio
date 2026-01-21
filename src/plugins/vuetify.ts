@@ -13,10 +13,10 @@ import { createVuetify } from "vuetify";
 const myCustomLightTheme = {
   dark: false,
   colors: {
-    background: "#dbdbdb",
+    background: "#f7f7f7",
     surface: "#FFFFFF",
     "surface-bright": "#FFFFFF",
-    "surface-light": "#adadad",
+    "surface-light": "#ffffff",
     "surface-variant": "#424242",
     "on-surface-variant": "#EEEEEE",
     primary: "#1867C0",
