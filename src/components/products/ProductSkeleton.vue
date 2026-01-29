@@ -12,15 +12,3 @@
     </v-card>
   </v-col>
 </template>
-
-<script setup lang="ts">
-import { ref, onMounted } from "vue";
-
-const loading = ref(true);
-
-onMounted(() => {
-  setTimeout(() => {
-    loading.value = false;
-  }, 1500);
-});
-</script>
